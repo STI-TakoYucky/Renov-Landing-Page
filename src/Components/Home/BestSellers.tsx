@@ -1,4 +1,4 @@
-export default function BestSellers({name, desc, price, image, index}: {name: string, desc: string, price: string, image: string, index: number}) {
+export default function BestSellers({name, desc, image, index}: {name: string, desc: string, price: string, image: string, index: number}) {
   return (
     <div className='global-margin flex flex-col pt-[8rem]'>
         <div className={`flex w-full justify-around items-center relative ${index === 1 ? "md:flex-row-reverse": "md:flex-row"} flex-col`}>
