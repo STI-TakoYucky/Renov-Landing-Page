@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: false;
+}
+
+@theme {
+  --font-body-font: "Onest";
+  --font-header-font: "Rubik";
+
+  --color-primary-500: #5b8ea2;
+  --color-primary-900: #1A5066;
+  --color-dark: #242343;
+}
+
+html {
+  @apply text-dark
+}
+
+.global-margin {
+  @apply w-full mx-auto px-[1rem] md:px-[3rem] xl:px-[0rem] xl:max-w-xl xl:min-w-[80rem]
+}
+
+.heading {
+  @apply text-4xl sm:text-6xl font-bold font-header-font text-primary-900;
+}
+
+.section-title {
+  @apply text-3xl sm:text-5xl font-bold font-header-font text-primary-900; 
+}
+
+.subsection {
+  @apply text-2xl sm:text-3xl font-bold font-header-font text-primary-900;
+}
+
+.section-caption {
+  @apply text-base sm:text-lg font-medium font-body-font;
+}
+
+/* Body text */
+p, a, button {
+  @apply  text-sm md:text-base font-body-font
+}
+
+.small-text {
+  @apply text-sm font-body-font; /* stays the same */
+}
+
+.trust-badges_span {
+  @apply flex flex-col items-center gap-4
+}
+
+.trust-badges_span p {
+  @apply font-medium
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-down {
+  animation: slideDown 0.6s;
+}
+
+input, textarea {
+  @apply p-2 border-2 border-primary-500 rounded-md
+}
