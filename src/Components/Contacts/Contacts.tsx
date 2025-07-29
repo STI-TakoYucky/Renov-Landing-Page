@@ -3,7 +3,7 @@ import { MailOpen, Phone } from 'lucide-react'
 export default function Contacts() {
   return (
     
-    <main>
+    <main className="overflow-x-hidden">
         <section className='global-margin mt-[8rem] pb-[1.7rem]'>
             <h2 className="heading text-center" data-aos="fade-up">Get In Touch!</h2>
             <div className='flex mt-[3rem] md:flex-row flex-col md:items-start items-center gap-5'>

@@ -5,6 +5,7 @@ import './index.css'
 import Footer from "./Components/Footer/Footer";
 import AboutPage from "./Components/AboutPage/AboutPage";
 import Contacts from "./Components/Contacts/Contacts";
+import Products from "./Components/Products/Products";
 
 export default function App() {
 
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="home" element={<Home />} />
           <Route path="about-us" element={<AboutPage />} />
           <Route path="contacts" element={<Contacts />} />
+          <Route path="products" element={<Products />} />
         </Route>
       </Routes>
     <Footer/>

@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     
-    <main className="h-full pb-10">
+    <main className="h-full pb-10 overflow-x-hidden">
       {/* Hero Section */}
       <section className='relative text-white'>
         <div className="absolute inset-0 bg-[url('/images/stock-photos/kitchen.jpg')] bg-cover bg-center brightness-[.4] z-0"></div>
@@ -60,7 +60,7 @@ export default function Home() {
           <div className='md:w-[60%] grid grid-cols-2 gap-10'>
             { companyStats.map((item, index) => {
               return (
-                <div key={index} data-aos="zoom-in" data-aos-delay={(index + 1) * 100} className='text-center flex items-center justify-center flex-col gap-4'>
+                <div key={index} data-aos="zoom-in" className='text-center flex items-center justify-center flex-col gap-4'>
                   <div className='flex flex-col gap-2 items-center justify-center'>
                     <item.icon size={60} className='m-5 text-primary-900'></item.icon>
                     <h3 className='subsection'>{item.title}</h3>
