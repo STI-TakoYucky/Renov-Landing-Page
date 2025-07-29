@@ -9,12 +9,11 @@ This serves as the documentation for its website.
 **Navbar** 
 - Home ✅
 - About Us ✅
-- Products 
+- Products ✅
 - Contacts ✅
 
 **Home**
 - Hero Section ✅
-- CTA
 - Trust Badges ✅
 - Value Proposition ✅
 - Number of Clients ✅
@@ -28,10 +27,10 @@ This serves as the documentation for its website.
 - The Team ✅
 
 **Products**
-- Product list
-    - Product name
-    - Price
-    - Type
+- Product list✅
+    - Product name✅
+    - Price✅
+    - rating ✅
 
 **Contacts**
 - Email ✅

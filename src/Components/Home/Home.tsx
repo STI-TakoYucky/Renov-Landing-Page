@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     
-    <main className="h-full pb-10 overflow-x-hidden">
+    <main className="h-full pb-10 overflow-hidden">
       {/* Hero Section */}
       <section className='relative text-white'>
         <div className="absolute inset-0 bg-[url('/images/stock-photos/kitchen.jpg')] bg-cover bg-center brightness-[.4] z-0"></div>
