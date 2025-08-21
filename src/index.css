@@ -18,7 +18,7 @@ html {
 }
 
 .global-margin {
-  @apply w-full mx-auto px-[1rem] md:px-[3rem] xl:px-[0rem] xl:max-w-xl xl:min-w-[80rem]
+  @apply w-full mx-auto px-[1rem] md:px-[3rem] xl:max-w-xl xl:min-w-[80rem]
 }
 
 .heading {
